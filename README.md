@@ -23,7 +23,7 @@ Contact me on the links below:
 
 ## Version History
 
-* Version 1.0
+* Version 1.0 (Current)
     * Initial Release
 
 ## License
