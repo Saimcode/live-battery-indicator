@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/scss/styles.css">
+
+        <title>Live Battery Percentage Indicator</title>
+    </head>
+    <body>
+        <!--=============== DARK THEME BUTTON ===============-->
+        <div class="dark-theme-button">
+            <div class="dark-theme-button__icon">
+                <i class="icon ri-sun-line"></i>
+            </div>
+        </div>
+
+        <!--=============== BATTERY ===============-->
+        <section class="battery">
+            <div class="battery__card">
+                <div class="battery__data">
+                    <p class="battery__text">Battery Level</p>
+                    <h1 class="battery__percentage">
+                        20%
+                    </h1>
+
+                    <p class="battery__status">
+                        Low battery <i class="ri-plug-line"></i>
+                    </p>
+                </div>
+
+                <div class="battery__pill">
+                    <div class="battery__level">
+                        <div class="battery__liquid"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            &copy; 2022 <strong><a target="_blank" href="https://saimcode.github.io/myportfolio/">Saim Qureshi</a></strong> All Rights Reserved.
+        </div>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

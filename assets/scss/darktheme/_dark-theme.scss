@@ -1,0 +1,44 @@
+.dark-theme {
+
+    *::selection { 
+        background: var(--text-color-light);
+        color: var(--text-color);
+    }
+
+    .battery {
+        &__card {
+            background-color: var(--container-color);
+        }
+
+        &__text {
+            color: var(--text-color-light);
+        }
+
+        // &__percentage {}
+
+        // &__status {}
+
+        &__pill {
+            background-color: var(--container-color);
+        }
+
+    }
+
+    .copyright {
+        background-color: var(--container-color);
+        color: var(--text-color-light);
+
+        &a:hover {
+            border-bottom: 2px solid var(--text-color-light);
+        }
+    }
+
+    .dark-theme-button {
+        background-color: var(--container-color);
+        color: var(--text-color-light);
+        &:hover {
+            background-color: var(--text-color-light);
+            color: var(--container-color);
+        }
+    }
+}
