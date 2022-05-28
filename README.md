@@ -2,7 +2,7 @@
 
 This application is a real time battery level indicator that uses JavaScript to get information about the battery level and display it on the screen. There is a cool animation of the battery as well which changes the color depending on the battery percentage.
 
-## Getting Started
+## 🕹Getting Started
 
 ### Dependencies
 
