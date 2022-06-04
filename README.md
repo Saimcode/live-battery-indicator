@@ -8,7 +8,7 @@ This application is a real time battery level indicator that uses JavaScript to 
 
 It's a web-based program so you would need the following:
 
-* Any OS (depending on your device).
+* Android or Windows OS (doesn't work on iOS).
 * A browser to run the application.
 
 ### 📍 Using the application
